@@ -13,4 +13,15 @@ public class Area {
     private Integer priority;
     private Date createTime;
     private Date lastEditTime;
+
+    @Override
+    public String toString() {
+        return "Area{" +
+                "areaId=" + areaId +
+                ", areaName='" + areaName + '\'' +
+                ", priority=" + priority +
+                ", createTime=" + createTime +
+                ", lastEditTime=" + lastEditTime +
+                '}';
+    }
 }
